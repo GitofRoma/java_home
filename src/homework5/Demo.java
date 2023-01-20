@@ -62,18 +62,14 @@ c)   Замените символ “=” на слово “равно”. И�
         str3 = str3.append(a).append(" * ").append(b).append(" = ").append(a * b);
 
         //b
-        MyStringBuilder.myReplace(str1,"=","равно");
-        MyStringBuilder.myReplace(str2,"=","равно");
-        MyStringBuilder.myReplace(str3,"=","равно");
+        MyStringBuilder.myReplace(str1, "=", "равно");
+        MyStringBuilder.myReplace(str2, "=", "равно");
+        MyStringBuilder.myReplace(str3, "=", "равно");
 
         //c
-        str1.replace(7,8,"равно");
-        str2.replace(7,8,"равно");
-        str2.replace(7,8,"равно");
-
-
-
-
+        str1.replace(7, 8, "равно");
+        str2.replace(7, 8, "равно");
+        str2.replace(7, 8, "равно");
 
 
     }

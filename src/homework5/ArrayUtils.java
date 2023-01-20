@@ -25,19 +25,17 @@ public class ArrayUtils {
     }
 
 
-    public int sumCountFinder(int[] inputArray, int inputSum){
-        int counter =0;
+    public int sumCountFinder(int[] inputArray, int inputSum) {
+        int counter = 0;
         for (int i = 0; i < inputArray.length; i++) {
             for (int a = 0; a < inputArray.length; a++) {
-                if (inputArray[i]+inputArray[a]==inputSum){
+                if (inputArray[i] + inputArray[a] == inputSum) {
                     counter++;
                 }
 
             }
         }
-
-
-        return counter/2;
+        return counter / 2;
     }
 
 }
