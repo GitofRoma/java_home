@@ -1,4 +1,4 @@
-package homewprk4;
+package homework4;
 
 import java.util.Random;
 

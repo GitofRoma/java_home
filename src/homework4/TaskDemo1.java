@@ -1,4 +1,4 @@
-package homewprk4;
+package homework4;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class TaskDemo1 {
      Замените каждый элемент с нечётным индексом на ноль
      Снова выведете массив на экран на отдельной строке
      */
-        int[] myArray = MyArray.createRandomArray(8, 1, 50);
+        int[] myArray = MyArray.createRandomArray(8, 12, 13);
         System.out.println(Arrays.toString(myArray));
 
         MyArray.change(myArray, false, 0);
