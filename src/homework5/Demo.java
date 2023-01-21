@@ -16,8 +16,11 @@ public class Demo {
         Ответ: 4
         */
 
-        int[] arr = new int[]{1, 2, 3, 5};
+        int[] arr = new int[]{1, 2, 4, 5};
         System.out.println(arrayUtils.findLostElement(arr));
+        System.out.println(arrayUtils.findLostElement2(arr));
+        System.out.println(arrayUtils.findLostElement3(arr));
+        System.out.println(arrayUtils.findLostElement4(arr));
 
 
         //task 2
